@@ -42,7 +42,7 @@ export class UncommonPagesComponent {
   //Async Pipe
 
   public myObservableTimer: Observable<number> = interval(2000).pipe(
-    tap((value) => console.log('tap', value)),
+    //tap((value) => console.log('tap', value)),
   );
 
   public promiseValue: Promise<String> = new Promise((resolve, reject) => {
